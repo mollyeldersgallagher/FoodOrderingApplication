@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.list-food {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 1em;
+  margin: 1em auto;
+
+  .card-food {
+    flex: 0 0 50%;
+    padding: 0.5em;
+    box-sizing: border-box;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+a.menu-diet-selected {
+  background-color: #28a745;
+}
+a.menu-option-selected {
+  background-color: #28a745;
+}
